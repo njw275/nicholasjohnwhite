@@ -1,13 +1,12 @@
 body {
 margin:0px;
-padding:10px;
+padding:0px;
 width:100%;
 }
 
 nav {
   background-color: #3295FF;
   overflow: hidden;
-  padding: 0;
 }
 
 a {
