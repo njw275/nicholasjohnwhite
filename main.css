@@ -56,8 +56,6 @@ h1, h2, h3, p {
 .break {
   margin: 0px; 
   display: inline-block;
-  top: 50%;
-  left: 50%;
   float: left;
 }
 
