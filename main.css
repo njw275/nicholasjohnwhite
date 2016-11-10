@@ -37,8 +37,10 @@ h1, h2, h3, p {
 
 #courses {
   float: left;
+  width: 50%;
 }
 
 #skills {
   float: right;
+  width: 50%;
 }
