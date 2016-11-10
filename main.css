@@ -37,13 +37,18 @@ h1, h2, h3, p {
 
 #courses {
   float: left;
-  width: 45%;
+  width: 30%;
   overflow: auto;
 }
 
 #skills {
   float: right;
-  width: 45%;
+  width: 30%;
+}
+
+#languages {
+  float: right;
+  width: 30%;
 }
 
 /*Classes*/
