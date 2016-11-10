@@ -42,12 +42,12 @@ h1, h2, h3, p {
 }
 
 #skills {
-  float: right;
+  float: left;
   width: 30%;
 }
 
 #languages {
-  float: right;
+  float: left;
   width: 30%;
 }
 
