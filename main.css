@@ -15,8 +15,13 @@ a {
   font-size: 20px;
   margin: 0;
   padding: 10px;
+  text-align: center;
 }
 
 a:hover {
   background-color: #256EBD;
+}
+
+a:visited {
+  color: #000;
 }
