@@ -57,7 +57,8 @@ h1, h2, h3, p {
   margin: 0px; 
   display: inline-block;
   float: left;
-  top: 50px;
+  top: 33%;
+  position: relative;
 }
 
 
