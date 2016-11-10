@@ -31,3 +31,14 @@ a:visited {
 h1, h2, h3, p {
   padding: 10px;
 }
+
+
+/* ID's */
+
+#courses {
+  float: left;
+}
+
+#skills {
+  float: right;
+}
