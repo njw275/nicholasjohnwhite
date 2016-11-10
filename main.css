@@ -50,7 +50,6 @@ h1, h2, h3, p {
 .break {
   margin: 0px; 
   display: inline-block;
-  position: fixed;
   top: 50%;
   left: 50%;
 }
