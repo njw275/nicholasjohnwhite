@@ -1,0 +1,22 @@
+
+
+nav {
+  background-color: #3295FF;
+  float: left;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Tahoma", Geneva, sans-serif;
+  font-size: 70px;
+  display: block;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #256EBD;
+}
