@@ -2,6 +2,7 @@
 
 nav {
   background-color: #3295FF;
+  overflow: hidden;
 }
 
 a {
