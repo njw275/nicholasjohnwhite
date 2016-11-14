@@ -14,8 +14,7 @@ $(document).ready(function() {
   console.log($select);
   console.log($count);
   console.log(myimages.length);
-  $('#topPhoto').src = myimages[$select];
-  
+  $('#topPhoto').attr("src", myimages[$select]);
   if($count==imagesa.length){
     $count = 0;
   }
