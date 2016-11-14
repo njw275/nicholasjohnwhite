@@ -13,7 +13,7 @@ $("#button").click(function() {
 $(document).ready(function() {
   
   
-  if($count==$images.length){
+  if($count==$imagesa.length){
     $count = 0;
   }
   $(document).images[1].src = imagesa[$count];
