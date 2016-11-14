@@ -13,6 +13,7 @@ $("#button").click(function() {
 $(document).ready(function() {
   console.log($select);
   console.log($count);
+  console.log(myimages.length);
   $('#topPhoto').src = myimages[$select];
   
   if($count==imagesa.length){
