@@ -19,4 +19,4 @@ function slides() {
 
 
 
-window.addEventListener("hashchange", function() { scrollBy(0, -50) })
+window.addEventListener("hashchange", function() { scrollBy(0, -45) })
