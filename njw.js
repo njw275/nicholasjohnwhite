@@ -10,7 +10,7 @@ $("#button").click(function() {
     }, 2000);
 });
 
-$(document).ready(slides() {
+$(document).ready(function() {
   $('#topPhoto').src = myimages[$select];
   
   if($count==$images.length){
@@ -18,7 +18,7 @@ $(document).ready(slides() {
   }
   $(document).images[1].src = imagesa[$count];
   $count++;
-  setTimeout(slides, 5000);
+  setTimeout(function, 5000);
 
 
 });
