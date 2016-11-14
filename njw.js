@@ -1,16 +1,14 @@
-window.onload = headers;
 window.onload = slides;
-
-function headers() {
-  var myimages = ["GA.jpg","SYD.jpg","GC.JPG"];
-  var select = Math.floor(Math.random() * myimages.length);
-  
-  document.getElementById("topPhoto").src = myimages[select];
-}
 
 var count = 0;
 var imagesa = ["Thailand.jpg","Kangaroo.JPG","Hussein.JPG","HK.JPG","Bball.PNG"];
+
+var myimages = ["GA.jpg","SYD.jpg","GC.JPG"];
+var select = Math.floor(Math.random() * myimages.length);
+
 function slides() {
+  document.getElementById("topPhoto").src = myimages[select];
+  
   if (count==imagesa.length){
     count = 0;
   }
