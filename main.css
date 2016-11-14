@@ -62,12 +62,12 @@ p {
 
 #aboutMe {
   float: right;
-  width: 50%;
+  width: 40%;
 }
 
 #myPhoto {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 /*Classes*/
