@@ -11,6 +11,8 @@ $("#button").click(function() {
 });
 
 $(document).ready(function() {
+  console.log($select);
+  console.log($count);
   $('#topPhoto').src = myimages[$select];
   
   if($count==imagesa.length){
