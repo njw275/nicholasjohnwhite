@@ -7,7 +7,7 @@ $select = Math.floor(Math.random() * myimages.length);
 $("#button").click(function() {
     $('html, body').animate({
         scrollTop: $("#aboutMe").offset().top-45
-    }, 2000);
+    }, 4000);
 });
 
 $(document).ready(function() {
