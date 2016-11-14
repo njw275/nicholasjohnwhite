@@ -20,5 +20,5 @@ $(document).ready(function() {
   }
   $count = $count + 1;
   setTimeout(function(){
-      $('#myPhoto').src = imagesa[$count];}, 5000);
+      $('#myPhoto').attr("src",imagesa[$count]);}, 5000);
 });
