@@ -16,7 +16,7 @@ $(document).ready(function() {
   if($count==imagesa.length){
     $count = 0;
   }
-  $('#me').src = imagesa[$count];
+  $('#myPhoto').src = imagesa[$count];
   $count++;
   setTimeout(function(){
       $('#topPhoto').src = myimages[$select];}, 5000);
