@@ -2,10 +2,10 @@ window.onload = headers;
 window.onload = slides;
 
 function headers() {
-  var images = ["GA.jpg","SYD.jpg","GC.JPG"];
-  var select = Math.floor(Math.random() * images.length);
+  var myimages = ["GA.jpg","SYD.jpg","GC.JPG"];
+  var select = Math.floor(Math.random() * myimages.length);
   
-  document.getElementById("topPhoto").src = images[select];
+  document.getElementById("topPhoto").src = myimages[select];
 }
 
 var count = 0;
