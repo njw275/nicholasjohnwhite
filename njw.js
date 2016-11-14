@@ -11,14 +11,12 @@ $("#button").click(function() {
 });
 
 $(document).ready(function() {
-  console.log($select);
-  console.log($count);
-  console.log(myimages.length);
   $('#topPhoto').attr("src", myimages[$select]);
-  if($count==imagesa.length){
-    $count = 0;
-  }
-  $count = $count + 1;
+
   setTimeout(function(){
+      if($count==imagesa.length){
+        $count = 0;
+      }
+      $count = $count + 1;
       $('#myPhoto').attr("src",imagesa[$count]);}, 5000);
 });
