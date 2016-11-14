@@ -6,7 +6,7 @@ width:100%;
 
 nav {
   background-color: #3295FF;
-  /*overflow: hidden;*/
+  overflow: hidden;
   position: fixed;
 }
 
