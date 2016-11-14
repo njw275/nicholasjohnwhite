@@ -37,9 +37,10 @@
         $("input").eq(3).click(function() {
           $("#Tester").text("Button is working");            
         });
-
-
-
+        
+        $(window).on('hashchange', function() { 
+          scrollBy(0, -50)
+        });
       });
 
     </script>
