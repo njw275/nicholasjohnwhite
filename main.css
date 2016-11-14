@@ -60,6 +60,16 @@ p {
   width: 30%;
 }
 
+#aboutMe {
+  float: right;
+  width: 50%;
+}
+
+#myPhoto {
+  float: left;
+  width: 50%;
+}
+
 /*Classes*/
 
 .break {
