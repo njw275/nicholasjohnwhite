@@ -40,8 +40,9 @@
         
         $(window).on('hashchange', function() { 
           scrollBy(0, -50)
+          $(window).trigger('hashchange');
         });
-      });
+    });
 
     </script>
   
