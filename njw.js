@@ -13,7 +13,7 @@ $("#button").click(function() {
 $(document).ready(slides() {
   $('#topPhoto').src = myimages[$select];
   
-  if ($count==$images.length){
+  if($count==$images.length){
     $count = 0;
   }
   $(document).images[1].src = imagesa[$count];
