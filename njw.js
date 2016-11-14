@@ -18,7 +18,7 @@ $(document).ready(function() {
   }
   $(document).images[1].src = imagesa[$count];
   $count++;
-  setTimeout(function, 5000);
+  setTimeout(function(), 5000);
 
 
 });
