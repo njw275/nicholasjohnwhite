@@ -11,15 +11,12 @@ $("#button").click(function() {
 });
 
 $(document).ready(function() {
-  
+  $('#topPhoto').src = myimages[$select];
   
   if($count==imagesa.length){
     $count = 0;
   }
-  $('#myPhoto').src = imagesa[$count];
-  $count++;
+  $count = $count + 1;
   setTimeout(function(){
-      $('#topPhoto').src = myimages[$select];}, 5000);
-
-
+      $('#myPhoto').src = imagesa[$count];}, 5000);
 });
