@@ -6,3 +6,5 @@ function slides() {
   
   document.getElementById("topPhoto").src = images[select];
 }
+
+window.addEventListener("hashchange", function() { scrollBy(0, -50) })
