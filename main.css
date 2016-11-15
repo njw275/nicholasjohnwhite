@@ -7,8 +7,7 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
-    background-image: url("GC.JPG");
-    background-size: 100%;
+    background: #FFF;
 }
 
 nav {
@@ -77,10 +76,10 @@ p {
   width: 40%;
 }
 
-#container {
+/*#container {
   background: #FFF;
   bottom: 0px;
-}
+}*/
 
 #header {
   position: relative;
@@ -89,6 +88,8 @@ p {
   height: 100%; 
   width: 100%;
   text-align: center;
+  background-image: url("GC.JPG");
+  background-size: 100%;
 }
 
 #welcome {
