@@ -79,6 +79,7 @@ p {
 
 #container {
   background: #FFF;
+  bottom: 0px;
 }
 
 #header {
