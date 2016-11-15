@@ -6,13 +6,13 @@ $select = Math.floor(Math.random() * myimages.length);
 
 $("#toAM").click(function() {
     $('html, body').animate({
-        scrollTop: $("#aboutMe").offset().top-45
+        scrollTop: $("#aboutMe").offset().top-40
     }, 600);
 });
 
 $("#toProj").click(function() {
     $('html, body').animate({
-        scrollTop: $("#projects").offset().top-45
+        scrollTop: $("#projects").offset().top-40
     }, 600);
 });
 
