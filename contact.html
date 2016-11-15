@@ -17,14 +17,14 @@
     <h3>Contact Me</h3>
     <p>Feel free to leave any comments, questions, and/or concerns here, and I will be happy to get back with you!</p>
     <p id="Tester">Hi I am gonna be changed</p>
-    <form>
+    <form action="contact.php" method="post">
 
       <fieldset><legend>Your information</legend>
-      <label>Your Name:</label><input type="text">
-      <label>Your Email:</label><input type="email">
+      <label>Your Name:</label><input name="firstname" type="text">
+      <label>Your Email:</label><input name="email" type="email">
       <br>
       <br>
-      <textarea placeholder="Enter your comments here..."cols="100" rows="7"></textarea>
+      <textarea placeholder="Enter your comments here..."cols="100" rows="7" name="comment"></textarea>
       <br>        
       <input type="submit" value="Send Comment">
       </fieldset>
