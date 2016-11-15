@@ -82,14 +82,18 @@ p {
 }
 
 #header {
-  position: relative;
+    /*position: relative;*/
   top: 0; 
   left: 0; 
   height: 100%; 
   width: 100%;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+}
+
+#intro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*Classes*/
