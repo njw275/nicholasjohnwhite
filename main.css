@@ -4,10 +4,11 @@ html, body {
 }
 
 body {
-margin:0px;
-padding:0px;
-width:100%;
-background-image: url("GC.JPG");
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-image: url("GC.JPG");
+    background-size: 100%;
 }
 
 nav {
