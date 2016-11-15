@@ -80,6 +80,7 @@ p {
 #container {
   background: #FFF;
   bottom: 0px;
+    position: absolute;
 }
 
 #header {
