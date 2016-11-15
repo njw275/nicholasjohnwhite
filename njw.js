@@ -17,7 +17,9 @@ $("#toProj").click(function() {
 });
 
 $(document).ready(function() {
-    $('#topPhoto').attr("src", myimages[$select]);
+    /*background-image of #header*/
+    $('#header').css('background-image', url(myimages[$select]));
+    
     function slides(){
         if($count==imagesa.length){
             $count = 0;
