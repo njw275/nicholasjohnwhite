@@ -38,6 +38,11 @@ a:visited {
   color: #000;
 }
 
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
 h2, h3 {
   padding: 10px;
   text-align: center;
