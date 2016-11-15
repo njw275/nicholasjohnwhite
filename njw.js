@@ -4,9 +4,15 @@ imagesa = ["Thailand.jpg","Kangaroo.JPG","Hussein.JPG","HK.JPG","Bball.PNG"];
 myimages = ["GA.jpg","SYD.jpg","GC.JPG"];
 $select = Math.floor(Math.random() * myimages.length);
 
-$("#button").click(function() {
+$("#toAM").click(function() {
     $('html, body').animate({
         scrollTop: $("#aboutMe").offset().top-45
+    }, 600);
+});
+
+$("#toProj").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top-45
     }, 600);
 });
 
