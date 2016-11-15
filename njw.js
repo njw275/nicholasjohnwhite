@@ -18,7 +18,7 @@ $("#toProj").click(function() {
 
 $(document).ready(function() {
     /*background-image of #header*/
-    $('#header').css('background-image', url(myimages[$select]));
+    $('#header').css('background-image', 'url(myimages[$select])');
     
     function slides(){
         if($count==imagesa.length){
