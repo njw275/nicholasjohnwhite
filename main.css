@@ -71,6 +71,10 @@ p {
   width: 40%;
 }
 
+#container {
+  background: #FFF;
+}
+
 /*Classes*/
 
 .break {
