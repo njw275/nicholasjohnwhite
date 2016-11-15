@@ -82,7 +82,7 @@ p {
 }*/
 
 #header {
-  position: absolute;
+  position: relative;
   top: 0; 
   left: 0; 
   height: 100%; 
@@ -90,7 +90,6 @@ p {
   text-align: center;
   background-image: url("GC.JPG");
   background-size: 100%;
-   overflow: hidden;
 }
 
 #welcome {
