@@ -20,8 +20,8 @@ a {
   text-align: center;
   color: #FFF;
   padding: 10px;
-  float: right;
   display: inline-block;
+  float: right;
 }
 
 a:hover {
