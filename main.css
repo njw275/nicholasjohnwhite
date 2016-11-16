@@ -135,7 +135,7 @@ p {
 /* The typing effect */
 @keyframes typing {
   from { width: step-end }
-  to { width: steps(8) }
+  to { width: steps(-8) }
 }
 
 /* The typewriter cursor effect */
