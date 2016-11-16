@@ -127,18 +127,10 @@ p {
 
     letter-spacing: .15em; 
         /* Adjust as needed */
-    animation-delay: 10s;
-    animation-duration: 7s;
     animation: 
-        typing 3.5s steps(40,end),
         blink-caret .75s step-end infinite;
 }
 
-/* The typing effect */
-@keyframes typing {
-  0% { width: 0% }
-  100% { width: 100%; }
-}
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
