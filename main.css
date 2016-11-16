@@ -94,7 +94,6 @@ p {
   text-align: center;
   background-image: url("GC.JPG");
   background-size: 100%;
-   display: inline-block;
 }
 
 #welcome {
@@ -114,7 +113,9 @@ p {
 }
 
 /* Animations */
-
+#type {
+    display: inline-block;
+}
 #welcome {
     display:inline-block;
     overflow: hidden; 
