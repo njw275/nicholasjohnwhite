@@ -94,6 +94,7 @@ p {
   text-align: center;
   background-image: url("GC.JPG");
   background-size: 100%;
+   display: inline-block;
 }
 
 #welcome {
@@ -122,11 +123,12 @@ p {
         /* The typwriter cursor */
     white-space: nowrap; 
         /* Keeps the content on a single line */
-    margin: 0 auto;
+    margin: auto;
         /* Gives that scrolling effect as the typing happens */
 
     letter-spacing: .15em; 
         /* Adjust as needed */
+    animation-duration: 7s;
     animation: 
         typing 3.5s steps(40,end),
         blink-caret .75s step-end infinite;
@@ -134,9 +136,8 @@ p {
 
 /* The typing effect */
 @keyframes typing {
-  animation-delay: 15s;
-  from { width: 0; }
-  to { width: steps-end; }
+  0% { width: 0% }
+  100% { width: 100%; }
 }
 
 /* The typewriter cursor effect */
@@ -144,6 +145,3 @@ p {
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
-
-
-
