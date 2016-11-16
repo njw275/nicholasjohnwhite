@@ -113,9 +113,7 @@ p {
 }
 
 /* Animations */
-#type {
-    display: inline-block;
-}
+
 #welcome {
     display:inline-block;
     overflow: hidden; 
