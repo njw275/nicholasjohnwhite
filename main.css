@@ -52,6 +52,10 @@ p {
   padding: 10px;
 }
 
+ul {
+    text-align: left;
+}
+
 
 /* ID's */
 
