@@ -127,7 +127,7 @@ p {
 
     letter-spacing: .15em; 
         /* Adjust as needed */
-    animation-delay: 5s;
+    animation-delay: 10s;
     animation-duration: 7s;
     animation: 
         typing 3.5s steps(40,end),
