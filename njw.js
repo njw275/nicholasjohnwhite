@@ -16,6 +16,13 @@ $("#toProj").click(function() {
     }, 600);
 });
 
+$("#toTop").click(function() {
+    $('html, body').animate({ 
+        scrollTop: 0 
+    }, 600);
+});
+    
+
 $(document).ready(function() {
     /*background-image of #header*/
     $('#header').css('background-image', 'url('+myimages[$select]+')');
