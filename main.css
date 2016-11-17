@@ -121,11 +121,9 @@ ul {
 
 #welcome {
     display:inline-block;
-    overflow: hidden; 
-        /* Ensures the content is not revealed until the animation */
     border-right: .15em solid black; 
         /* The typwriter cursor */
-   /* letter-spacing: .15em; */
+    letter-spacing: .15em;
         /* Adjust as needed */
     animation: 
         blink-caret .75s /*step-end*/ infinite;
