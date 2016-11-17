@@ -123,11 +123,17 @@ ul {
     display:inline-block;
     border-right: .15em solid black; 
     letter-spacing: .15em;
-    animation: 
-        cursor .75s infinite;
+    animation: cursor .75s infinite;
 }
 
 @keyframes cursor {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
+    0% { 
+        border-color: transparent; 
+    }
+    50% { 
+        border-color: black;
+    }
+    100% { 
+        border-color: transparent; 
+    }
 }
