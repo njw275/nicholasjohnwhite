@@ -111,17 +111,7 @@ ul {
     transform: translateY(-50%);
 }
 
-#mallBall {
-    font-family: inital; 
-    font-size: initial; 
-    text-decoration: underline; 
-    color: blue; 
-    background-color: transparent; 
-    float: none; 
-    padding: 0;
-}
-
-#physicalGame {
+#mallBall, #physicalGame, #i6 {
     font-family: inital; 
     font-size: initial; 
     text-decoration: underline; 
