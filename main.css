@@ -107,6 +107,26 @@ ul {
     transform: translateY(-50%);
 }
 
+#mallBall {
+    font-family: inital; 
+    font-size: initial; 
+    text-decoration: underline; 
+    color: blue; 
+    background-color: transparent; 
+    float: none; 
+    padding: 0;
+}
+
+#physicalGame {
+    font-family: inital; 
+    font-size: initial; 
+    text-decoration: underline; 
+    color: blue; 
+    background-color: transparent; 
+    float: none; 
+    padding: 0;
+}
+
 /*Classes*/
 
 .break {
@@ -115,16 +135,6 @@ ul {
   float: left;
   top: 33px;
   position: relative;
-}
-
-.project {
-    font-family: inital; 
-    font-size: initial; 
-    text-decoration: underline; 
-    color: blue; 
-    background-color: transparent; 
-    float: none; 
-    padding: 0;
 }
 
 /* Animations */
