@@ -98,6 +98,7 @@ ul {
   text-align: center;
   background-image: url("GC.JPG");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #welcome {
