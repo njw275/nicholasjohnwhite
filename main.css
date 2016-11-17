@@ -122,16 +122,12 @@ ul {
 #welcome {
     display:inline-block;
     border-right: .15em solid black; 
-        /* The typwriter cursor */
     letter-spacing: .15em;
-        /* Adjust as needed */
     animation: 
-        blink-caret .75s /*step-end*/ infinite;
+        cursor .75s infinite;
 }
 
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
+@keyframes cursor {
   from, to { border-color: transparent }
-  50% { border-color: black; }
+  /*50% { border-color: black; }*/
 }
