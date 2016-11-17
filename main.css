@@ -97,7 +97,7 @@ ul {
   width: 100%;
   text-align: center;
   background-image: url("GC.JPG");
-  background-size: cover/*100%*/;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
