@@ -117,6 +117,16 @@ ul {
   position: relative;
 }
 
+.project {
+    font-family: inital; 
+    font-size: initial; 
+    text-decoration: underline; 
+    color: blue; 
+    background-color: transparent; 
+    float: none; 
+    padding: 0;
+}
+
 /* Animations */
 
 #welcome {
